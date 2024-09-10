@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: white;
+    width: 80vw;
+    margin: 20px auto 50px auto;
+    padding: 10px 20px 50px 20px;
+    border-radius: 7px;
+}
+
+h1, h2 {
+    margin: 30px 0px 15px 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.index li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+li, .index li {
+    margin-left: 20px;
+}
+
+li a {
+    color: rgb(66, 6, 105);
+}
+
+img {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: block;
+}
