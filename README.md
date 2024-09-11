@@ -11,3 +11,4 @@ New repository on GitHub
 Cloning repository into local machine
 List (ordered and unordered)
 Anchor
+Simple CSS with type selectors
