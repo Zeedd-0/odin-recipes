@@ -1,7 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    margin: auto;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,36 +13,62 @@ main {
     background-color: white;
     width: 80vw;
     margin: 20px auto 50px auto;
-    padding: 10px 20px 50px 20px;
-    border-radius: 7px;
+    padding: 10px 20px 40px 20px;
 }
 
 h1, h2 {
-    margin: 30px 0px 15px 0px;
-    text-align: center;
+    margin: 30px 0px 25px 0px;
 }
 
-h2 {
-    text-align: left;
-}
-
-.index li {
-    font-size: 1.1rem;
-    margin: 10px 0;
-}
-
-li, .index li {
-    margin-left: 20px;
-}
-
-li a {
-    color: rgb(66, 6, 105);
-}
+/* ---------------------------------------- */
 
 img {
     width: auto;
     height: 200px;
     margin: 0 auto;
-    border-radius: 7px;
+}
+
+.block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.index li {
+    width: 500px;
+    margin: 10px auto;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.list li {
+    margin-left: 20px;
+}
+
+li, p {
+    margin: 0 0 0.45rem 0;
+}
+
+.button {
+    background-color: rgb(186, 86, 252);
+    height: 1.3rem;
+    width: 100%;
+    line-height: 1.3rem;
+}
+
+.footer {
+    width: 100px;
+    margin: 65px auto 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
     display: block;
 }
